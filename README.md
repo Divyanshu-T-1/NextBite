@@ -1,52 +1,81 @@
-# 🍔 NextBite
+# 🍔 NextBite - Frontend
 
-A modern and responsive **Food Delivery Web Application** frontend built with **React**, **Tailwind CSS**, **React Router**, and **Context API**. The application provides separate interfaces for **Customers**, **Restaurant Owners**, and **Administrators**, delivering a smooth and intuitive user experience.
+<p align="center">
+  <b>A Modern and Responsive Food Delivery Web Application Frontend</b><br>
+  Built with React, Tailwind CSS, React Router, and Context API.
+</p>
 
-> **⚠️ Project Status:** This repository currently contains the **frontend only**. Backend development is being handled by my teammate **Ayush Verma** and will be integrated in future updates.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite" />
+  <img src="https://img.shields.io/badge/License-Educational-orange" />
+</p>
 
 ---
 
-## 📸 Preview
+# 📖 About
 
-> Screenshots will be added soon.
+**NextBite** is a modern and responsive **Food Delivery Web Application** inspired by popular platforms like **Swiggy** and **Zomato**.
+
+This repository primarily showcases the **frontend implementation** developed by **Divyanshu** using **React**, **Tailwind CSS**, **React Router**, and **Context API**.
+
+> **Note:** During the development of the complete full-stack application, **minor frontend modifications were made to support backend integration**. The complete integrated project is available in the collaborative repository linked below.
 
 ---
 
-# ✨ Features
+# 🌐 Live Demo
+
+🚀 **Visit the Live Application**
+
+https://next-bite-food-delivery-app.vercel.app/
+
+---
+
+# 📂 Complete Full Stack Project
+
+**Collaborative Repository**
+
+https://github.com/Ayushverma1238/NextBite-Food-Delivery-App
+
+---
+
+# ✨ Frontend Features
 
 ## 👤 Customer
 
-- Browse restaurants
-- View restaurant details
-- Add/Remove items from cart
-- Wishlist management
-- Checkout page
-- Order history
-- User profile
-- Login & Registration
-- Forgot Password
+- User Registration & Login
+- Browse Restaurants
+- Restaurant Details
+- Search Restaurants
+- Filter Restaurants
+- Wishlist Management
+- Shopping Cart
+- Checkout Page
+- Order History
+- User Profile
+- Responsive User Interface
 
 ---
 
 ## 🍽️ Restaurant Owner
 
-- Dashboard
+- Owner Dashboard
 - Food Management
-- Orders Management
-- Analytics
-- Settings
+- Order Management
+- Analytics Dashboard
+- Restaurant Settings
 
 ---
 
 ## 🛠️ Admin
 
-- Dashboard
+- Admin Dashboard
 - User Management
 - Restaurant Management
 - Category Management
 - Order Management
-- Reports
-- Analytics
+- Reports & Analytics
 
 ---
 
@@ -55,32 +84,36 @@ A modern and responsive **Food Delivery Web Application** frontend built with **
 ### Frontend
 
 - React.js
-- React Router DOM
-- Tailwind CSS
-- Context API
-- JavaScript (ES6+)
 - Vite
+- Tailwind CSS
+- React Router DOM
+- Context API
+- Axios
+- React Toastify
+- React Icons
+- JavaScript (ES6+)
 
 ---
 
-# 📂 Project Structure
+# 📁 Project Structure
 
-```
-NextBite/
+```text
+NextBite
 │
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── context/
-│   ├── hooks/
-│   ├── layout/
-│   ├── pages/
-│   │   ├── admin/
-│   │   ├── customer/
-│   │   ├── owner/
-│   │   └── auth/
-│   ├── routes/
+├── public
+│
+├── src
+│   ├── assets
+│   ├── components
+│   ├── context
+│   ├── hooks
+│   ├── layout
+│   ├── pages
+│   │   ├── admin
+│   │   ├── customer
+│   │   ├── owner
+│   │   └── auth
+│   ├── routes
 │   ├── App.jsx
 │   └── main.jsx
 │
@@ -99,7 +132,7 @@ NextBite/
 git clone https://github.com/Divyanshu-T-1/NextBite.git
 ```
 
-## Navigate to Project
+## Navigate to the Project
 
 ```bash
 cd NextBite
@@ -117,83 +150,87 @@ npm install
 npm run dev
 ```
 
-Open your browser and visit:
+Visit:
 
-```
+```text
 http://localhost:5173
 ```
 
 ---
 
-# 📌 Current Progress
+# 💡 Frontend Highlights
 
-### ✅ Completed
-
-- Responsive UI
-- Customer Module
-- Restaurant Owner Module
-- Admin Module
-- Authentication UI
-- Protected Routes
+- Responsive Design
+- Role-Based Dashboards
+- React Router Navigation
 - Context API State Management
-- Routing
+- Protected Routes
+- Shopping Cart
 - Wishlist
-- Cart
-- Checkout UI
-
-### 🚧 Upcoming
-
-- Backend Integration
-- REST APIs
-- MongoDB Database
-- JWT Authentication
-- Payment Gateway
-- Live Order Tracking
-- Notifications
-- Reviews & Ratings
+- Checkout Flow
+- Modular Folder Structure
+- Reusable Components
+- Clean UI/UX
 
 ---
 
-# 🤝 Contributors
+# 👨‍💻 Developer
 
-### Frontend Developer
+**Divyanshu**
 
-**Divyanshu Mishra**
+### Responsibilities
 
-- React.js
-- Tailwind CSS
-- Context API
-- React Router
-- UI/UX Development
+- Frontend Architecture
+- React Development
+- Tailwind CSS Styling
+- Context API State Management
+- React Router Integration
+- Responsive UI Development
+- Component Design
 
-### Backend Developer
+**GitHub**
 
-**Ayush Verma**
-
-- Node.js
-- Express.js
-- MongoDB
-- REST API Development
+https://github.com/Divyanshu-T-1
 
 ---
 
-# 🌟 Future Scope
+# 🔗 Complete Team Project
 
-- Real-time Order Tracking
-- Online Payments
-- Push Notifications
-- Restaurant Ratings & Reviews
-- Search & Filters
-- Coupon System
-- Dark Mode
-- Admin Insights Dashboard
+For the complete **Full Stack Food Delivery Application** with backend integration, visit:
+
+**Repository**
+
+https://github.com/Ayushverma1238/NextBite-Food-Delivery-App
+
+**Live Demo**
+
+https://next-bite-food-delivery-app.vercel.app/
+
+---
+
+# 🚀 Future Improvements
+
+- Performance Optimization
+- Better UI Animations
+- Accessibility Enhancements
+- Unit Testing
+- Progressive Web App (PWA)
+- Internationalization (i18n)
 
 ---
 
 # 📜 License
 
-This project is developed for learning and educational purposes.
+This project is developed for **Educational and Learning Purposes**.
 
 ---
 
-## ⭐ If you like this project, don't forget to give it a Star on GitHub!
+# ⭐ Support
+
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
+
+---
+
+<p align="center">
+Made with ❤️ by Divyanshu
+</p>

@@ -1,14 +1,16 @@
-# 🍔 NextBite - Frontend
+# 🍔 NextBite
 
 <p align="center">
-  <b>A Modern and Responsive Food Delivery Web Application Frontend</b><br>
-  Built with React, Tailwind CSS, React Router, and Context API.
+  <b>A Modern and Responsive Food Delivery Web Application</b><br>
+  Frontend built with React, Vite, Tailwind CSS, React Router, Context API, and Axios.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Context_API-React-61DAFB" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white" />
   <img src="https://img.shields.io/badge/License-Educational-orange" />
 </p>
 
@@ -16,17 +18,25 @@
 
 # 📖 About
 
-**NextBite** is a modern and responsive **Food Delivery Web Application** inspired by popular platforms like **Swiggy** and **Zomato**.
+**NextBite** is a modern and responsive **Food Delivery Web Application** designed to provide a seamless experience for **Customers**, **Restaurant Owners**, and **Administrators**.
 
-This repository primarily showcases the **frontend implementation** developed by **Divyanshu** using **React**, **Tailwind CSS**, **React Router**, and **Context API**.
+This repository showcases the **frontend implementation** developed by **Divyanshu** using **React**, **Vite**, **Tailwind CSS**, **React Router**, **Context API**, and **Axios**.
 
-> **Note:** During the development of the complete full-stack application, **minor frontend modifications were made to support backend integration**. The complete integrated project is available in the collaborative repository linked below.
+The complete Full Stack application, including backend integration, is available in the collaborative repository linked below.
+
+---
+
+# 📌 Project Status
+
+- ✅ Frontend Development Completed
+- ✅ Backend Successfully Integrated (Team Repository)
+- ✅ Live Demo Available
 
 ---
 
 # 🌐 Live Demo
 
-🚀 **Visit the Live Application**
+🚀 **Live Application**
 
 https://next-bite-food-delivery-app.vercel.app/
 
@@ -40,18 +50,18 @@ https://github.com/Ayushverma1238/NextBite-Food-Delivery-App
 
 ---
 
-# ✨ Frontend Features
+# ✨ Features
 
 ## 👤 Customer
 
 - User Registration & Login
 - Browse Restaurants
 - Restaurant Details
-- Search Restaurants
-- Filter Restaurants
+- Restaurant Search
+- Restaurant Filtering
 - Wishlist Management
 - Shopping Cart
-- Checkout Page
+- Checkout
 - Order History
 - User Profile
 - Responsive User Interface
@@ -60,15 +70,15 @@ https://github.com/Ayushverma1238/NextBite-Food-Delivery-App
 
 ## 🍽️ Restaurant Owner
 
-- Owner Dashboard
+- Dashboard
 - Food Management
 - Order Management
-- Analytics Dashboard
+- Analytics
 - Restaurant Settings
 
 ---
 
-## 🛠️ Admin
+## 🛠️ Administrator
 
 - Admin Dashboard
 - User Management
@@ -79,7 +89,7 @@ https://github.com/Ayushverma1238/NextBite-Food-Delivery-App
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
 ### Frontend
 
@@ -92,6 +102,14 @@ https://github.com/Ayushverma1238/NextBite-Food-Delivery-App
 - React Toastify
 - React Icons
 - JavaScript (ES6+)
+
+### Backend (Integrated Project)
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
 
 ---
 
@@ -106,14 +124,27 @@ NextBite
 │   ├── assets
 │   ├── components
 │   ├── context
+│   ├── data
 │   ├── hooks
 │   ├── layout
 │   ├── pages
-│   │   ├── admin
-│   │   ├── customer
-│   │   ├── owner
-│   │   └── auth
+│   │   ├── Admin
+│   │   ├── Cart
+│   │   ├── Checkout
+│   │   ├── ForgotPassword
+│   │   ├── Home
+│   │   ├── Login
+│   │   ├── NotFound
+│   │   ├── Orders
+│   │   ├── Profile
+│   │   ├── Register
+│   │   ├── RestaurantDetails
+│   │   ├── RestaurantOwner
+│   │   ├── Restaurants
+│   │   └── Wishlist
 │   ├── routes
+│   ├── services
+│   ├── utils
 │   ├── App.jsx
 │   └── main.jsx
 │
@@ -144,7 +175,7 @@ cd NextBite
 npm install
 ```
 
-## Start Development Server
+## Run the Development Server
 
 ```bash
 npm run dev
@@ -162,47 +193,56 @@ http://localhost:5173
 
 - Responsive Design
 - Role-Based Dashboards
-- React Router Navigation
-- Context API State Management
 - Protected Routes
+- Context API State Management
+- REST API Integration
 - Shopping Cart
 - Wishlist
 - Checkout Flow
 - Modular Folder Structure
 - Reusable Components
-- Clean UI/UX
+- Clean & Modern UI
+- Component-Based Architecture
 
 ---
 
-# 👨‍💻 Developer
+# 📚 What I Learned
 
-**Divyanshu**
+- Building scalable React applications
+- Context API state management
+- Client-side routing with React Router
+- API integration using Axios
+- Responsive UI development with Tailwind CSS
+- Component-based architecture
+- Collaborative development using Git & GitHub
+- Frontend integration with backend APIs
 
-### Responsibilities
+---
 
-- Frontend Architecture
-- React Development
-- Tailwind CSS Styling
-- Context API State Management
-- React Router Integration
-- Responsive UI Development
-- Component Design
+# 👨‍💻 My Contribution
 
-**GitHub**
+As the **Frontend Developer**, I was responsible for:
 
-https://github.com/Divyanshu-T-1
+- Designing the frontend architecture
+- Developing reusable React components
+- Building responsive user interfaces
+- Implementing role-based dashboards
+- Managing global state using Context API
+- Creating protected routes
+- Integrating frontend with backend APIs
+- Improving the overall user experience
 
 ---
 
 # 🔗 Complete Team Project
 
-For the complete **Full Stack Food Delivery Application** with backend integration, visit:
+For the complete Full Stack application with backend integration, visit:
 
-**Repository**
+### Repository
 
 https://github.com/Ayushverma1238/NextBite-Food-Delivery-App
 
-**Live Demo**
+### Live Demo
 
 https://next-bite-food-delivery-app.vercel.app/
 
@@ -210,12 +250,22 @@ https://next-bite-food-delivery-app.vercel.app/
 
 # 🚀 Future Improvements
 
-- Performance Optimization
-- Better UI Animations
-- Accessibility Enhancements
-- Unit Testing
-- Progressive Web App (PWA)
-- Internationalization (i18n)
+- Online Payment Gateway
+- Real-Time Order Tracking
+- Push Notifications
+- Restaurant Reviews & Ratings
+- AI-Based Food Recommendations
+- Coupon & Discount System
+
+---
+
+# 👤 Developer
+
+**Divyanshu**
+
+GitHub:
+
+https://github.com/Divyanshu-T-1
 
 ---
 
@@ -227,7 +277,7 @@ This project is developed for **Educational and Learning Purposes**.
 
 # ⭐ Support
 
-If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
+If you found this project helpful, consider giving it a ⭐ Star.
 
 ---
 
